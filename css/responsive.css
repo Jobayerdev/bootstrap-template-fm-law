@@ -1,0 +1,326 @@
+.slicknav_menu {
+    display: none;
+}
+
+.mobile-navigations {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .firms-content {
+        margin-bottom: 50px;
+    }
+
+    .achievements {
+        background-size: contain;
+    }
+
+    .achievements .see-more {
+        margin-top: 30px;
+    }
+
+    .achievement {
+        display: block;
+    }
+
+    .achievements .primary-title {
+        margin-bottom: 80px;
+    }
+
+    .archivement-content {
+        height: 300px;
+    }
+
+    .achievement li:nth-child(3) {
+        margin-top: 150px;
+    }
+
+    .achievement li:nth-child(2) {
+        margin-top: 150px;
+    }
+
+    /* Gallery */
+    .owl-nav button {
+        height: 40px;
+        width: 40px;
+    }
+
+    .big-thumbnail {
+        height: 370px;
+    }
+
+    .big-thumbnail img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* achive */
+    .documents-table {
+        margin-bottom: 60px;
+    }
+
+    .profiles-section:after {
+        position: unset;
+    }
+
+    .profile {
+        margin-bottom: 30px;
+    }
+
+    .profile-info img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .profile-contact {
+        box-shadow: none;
+    }
+
+    .secondary-text:after {
+        width: 70%;
+    }
+
+    .articles {
+        margin-top: 100px;
+    }
+
+    .footer-menu {
+        display: flex;
+        justify-content: start;
+    }
+
+    .footer-menu ul:first-child {
+        margin-right: 50px;
+    }
+
+    .footer-box {
+        margin-bottom: 60px;
+    }
+
+    .footer-box h2 {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /*************** Header  ***************/
+    .home-logo {
+        float: left;
+    }
+
+    .mobile-navigations {
+        text-align: right;
+        float: none;
+        display: block;
+    }
+
+    .navigation-menu {
+        display: none !important;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+
+    .slicknav_menu {
+        background: transparent;
+    }
+
+    .slicknav_nav {
+        width: 100%;
+        background: #fff;
+    }
+
+    .slicknav_btn {
+        background: transparent;
+        color: #000;
+        margin-top: 7px;
+        margin-bottom: 30px;
+    }
+
+    .slicknav_icon {
+        font-size: 18px;
+        color: #000;
+    }
+
+    .slicknav_icon-bar {
+        margin-bottom: 6px;
+        height: 2px !important;
+        width: 25px !important;
+        background: #333
+    }
+
+    .slicknav_nav li {
+        width: 100%;
+        display: inline-block;
+        text-align: left;
+        border-bottom: 1px solid #f1f1f1;
+        border-bottom: 1px solid #f1f1f1;
+        padding: 0;
+    }
+
+    .slicknav_nav li:last-child {
+        border: none;
+    }
+
+    .slicknav_nav a {
+        padding: 15px 0px !important;
+        border-radius: 0;
+        color: #000;
+    }
+
+    .slicknav_nav a:hover {
+        color: #f26f21;
+        border-radius: 0;
+        background: transparent;
+    }
+
+    .slicknav_nav {
+        padding: 0px 20px;
+    }
+
+    .slicknav_nav li {
+        outline: none;
+    }
+
+    /*************** Firms  ***************/
+    .firms-content {
+        height: auto;
+        width: 100%;
+    }
+
+    /*************** Gallery  ***************/
+    .owl-nav {
+        top: 100%;
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+    }
+
+    /*************** Case History  ***************/
+    .case-content {
+        border-left: 0;
+    }
+
+    .case-status {
+        margin-bottom: 50px;
+    }
+
+    /*************** Team  ***************/
+    .profile-info {
+        height: 470px;
+    }
+
+    .profile-info {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    /*************** Header  ***************/
+    .auth a {
+        margin-left: 5%;
+    }
+
+    .home-logo img {
+        max-height: 100%;
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    .hero-text h1:after {
+        width: 50px;
+        right: -35%;
+    }
+
+    /*************** Firms  ***************/
+    .firms-info p {
+        display: block;
+        line-height: 34px;
+    }
+
+    .contact-links {
+    display: block;
+    }
+
+    .contact-links li {
+        display: block;
+    }
+
+    .contact-links i {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .social-links {
+        top: 50%;
+        margin-top: -50px;
+    }
+
+    /*************** Achievements  ***************/
+    .achievements .primary-title h1:after {
+        width: 50px;
+        left: -35%;
+    }
+
+    /*************** Team  ***************/
+    .primary-title h1:after {
+        right: -40px;
+        width: 40px;
+        font-size: 28px;
+    }
+
+    .profiles-section .primary-title h1:after {
+        background: #fff;
+        position: unset;
+    }
+
+    /*************** Achivement  ***************/
+    .achivement-title {
+        position: unset;
+        width: 100%;
+    }
+
+    .achievement li {
+        margin-left: 0;
+    }
+
+    .archivement-content {
+        padding-top: 30px;
+    }
+
+    /*************** Case History  ***************/
+    .case-content {
+        padding: 0;
+    }
+
+    .contributor {
+        padding: 40px 20px;
+    }
+
+    .hide-sm {
+        display: none;
+    }
+
+    .primary-title p {
+        width: 100%;
+    }
+
+    /*************** Comment  ***************/
+    .comment-content {
+        margin-left: 10px;
+    }
+
+    .reply-comment {
+        margin-left: 10px;
+    }
+
+    .article-content span {
+        font-size: 60%;
+    }
+}
+
